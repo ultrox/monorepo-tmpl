@@ -1,10 +1,13 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
+import {a} from "boop"
+
 import './App.css'
 import { MyButton } from 'lib1';
  
 function App() {
   const [count, setCount] = useState(0)
+	a()
 
   return (
     <div className="App">

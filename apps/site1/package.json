@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "lib1": "*",
+    "micro2": "*",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "styled-components": "^5.3.6"

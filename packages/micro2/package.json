@@ -1,0 +1,7 @@
+{
+  "name": "boop",
+  "version": "1.0.0",
+  "main": "bip/index.js",
+  "author": "Marko Vujanic",
+  "license": "MIT"
+}
