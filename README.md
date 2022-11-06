@@ -4,11 +4,13 @@
 - faster builds (turbo repo)
 
 ## Intro 
+```
 .
 ├── package.json
 ├── README.md
 ├── packages → containing the component library package
-└── apps    → containing the site to test the library
+└── apps     → containing the site to test the library
+```
 
 
 ## Create new React Package
