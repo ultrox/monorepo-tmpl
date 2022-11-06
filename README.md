@@ -1,9 +1,14 @@
+## Why
+- easy to share code between packages
+- easy to share dependencies
+- faster builds (turbo repo)
+
 ## Intro 
 .
 ├── package.json
 ├── README.md
 ├── packages → containing the component library package
-└── sites    → containing the site to test the library
+└── apps    → containing the site to test the library
 
 
 ## Create new React Package
