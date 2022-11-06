@@ -1,0 +1,44 @@
+{
+  "name": "lib1",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "prepack": "json -f package.json -I -e \"delete this.devDependencies; delete this.dependencies\""
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "styled-components": "^5.3.6"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.22",
+    "@types/react-dom": "^18.0.7",
+    "@types/styled-components": "^5.1.26",
+    "@vitejs/plugin-react": "^2.2.0",
+    "json": "^11.0.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.2.0",
+    "vite-plugin-dts": "^1.6.6"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0 || 17.x",
+    "react-dom": "^16.8.0 || 17.x",
+    "styled-components": "^5.0.0"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/lib1.umd.js",
+  "module": "./dist/lib1.es.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/lib1.es.js",
+      "require": "./dist/lib1.umd.js"
+    }
+  }
+}
